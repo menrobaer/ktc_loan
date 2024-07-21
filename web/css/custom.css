@@ -1,0 +1,92 @@
+/* Import Font Awesome CSS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+form div.required label:after {
+  content: "* Required";
+  color: red !important;
+  padding: 3px 5px;
+  margin-left: 3px;
+  border-radius: 5px;
+  background: #eee;
+  font-size: 8px;
+  vertical-align: top;
+  color: #1011111f;
+}
+
+.btn.btn-icon.rounded-circle {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.navbar-vertical.navbar-expand-xs {
+  z-index: 999;
+}
+
+.table thead th {
+  padding: .5rem;
+}
+
+/* Custom styles for pagination */
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  /* Bootstrap's primary color */
+  border-color: #007bff;
+  /* Bootstrap's primary color */
+  color: #fff;
+  /* White text color */
+}
+
+.pagination .page-item.active .page-link:hover {
+  background-color: #0056b3;
+  /* Darker primary color for hover */
+  border-color: #0056b3;
+  /* Darker primary color for hover */
+}
+
+.dropdown-menu {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease;
+}
+
+.dropdown-menu.show {
+  opacity: 1 !important;
+}
+
+/* Example custom styles for Select2 */
+.select2-container .select2-selection--single {
+  height: calc(1.5em + 0.75rem + 8px);
+  padding: 0.375rem 0.75rem 0.375rem 0.175rem;
+  border-radius: .5rem;
+  border-color: #d2d6da;
+  font-size: .875rem !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #495057;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: calc(1.5em + 0.75rem + 8px);
+  right: 0.75rem;
+  width: 20px;
+}
+.select2-container--default .select2-results__option {
+  font-size: 14px; /* Adjust font size here */
+}
+.input-group .select2-container {
+  width: auto !important;
+  flex: 1 1 auto !important;
+}
+.input-group .select2-container .select2-selection--single {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.input-group button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-bottom: 0px;
+}
